@@ -13,14 +13,13 @@ Then use the following instruction to clone the project and use it.
 7. commit the files in the staging area with the command "git commit -m 'put a message here"
 8. push your code to the remote repository using the command "git push origin <branchName>"
 
-Example of Mobile Version of the project
-> ![html1](https://user-images.githubusercontent.com/65928536/133560182-3f71f51a-1b2e-4343-a362-02ca96586daf.png)
+
 Example of Desktop Version of the project
 <<<<<<< HEAD
-![rep2_style css](https://user-images.githubusercontent.com/65928536/133286850-0b364a5b-d86d-4182-823f-39292e32b7aa.png)
-Example of the running project
+![rep2_style css](img/Untitled.png)
+Example of Mobile Version of the project
 =======
-![running__pro](https://user-images.githubusercontent.com/65928536/133654252-5e276519-d761-46cf-b064-3042bd5e8702.png)
+![running__pro](img/mobile_version.png)
 
 
 >>>>>>> 09c9669cdb2bd0040ef5eced8448de4387849987
