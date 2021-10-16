@@ -7,7 +7,6 @@ menue.addEventListener('click', () => {
 
 // feature section
 
-
 const output = document.querySelector('.feature_section');
 output.innerHTML = `${output.innerHTML}<div class="secondPage_title">
 <h3 class="secondPage_text" id="feature_text">Curriculum Features</h3>
