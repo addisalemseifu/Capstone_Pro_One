@@ -4,6 +4,13 @@ menue.addEventListener('click', () => {
   menue.classList.toggle('a');
   MenueLinks.classList.toggle('active');
 });
+// const menuBarHide = () => {
+//     const menuBars = document.querySelector('.a');
+//     if (window.innerWidth <= 960 && menuBars) {
+//       menue.classList.toggle('a');
+//       MenueLinks.classList.remove('active');
+//     }
+//   };
 
 // feature section
 
