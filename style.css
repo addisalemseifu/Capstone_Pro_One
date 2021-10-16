@@ -313,8 +313,8 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 90vw;
-}
+  /* width: 90vw; */
+  border: 2px solid black;}
 
 .dotted_wrapper {
   margin-right: 1rem;
@@ -355,10 +355,10 @@
   top: 30px;
   left: 0;
 }
-
+/* 
 .feature_title {
   display: none;
-}
+} */
 
 .feature_main-one {
   font-family: 'Poppins', sans-serif;
@@ -557,6 +557,13 @@
 
   /* Second Page */
 
+  /* .feature_section {
+    width: 100vw;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+  } */
+
   .secondPage_text {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -667,13 +674,14 @@
   }
 
   .feature_desktop_wrapper {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    /* flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-right: 15%;
     padding-left: 15%;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; */
+    border: 2px solid red;
   }
 
   .feature_footer {
