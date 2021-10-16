@@ -24,7 +24,9 @@ Example of Mobile Version of the project
 
 >>>>>>> 09c9669cdb2bd0040ef5eced8448de4387849987
   
-##  [Your Link Hear](https://addisalemseifu.github.io/Portofolio-Desktop-Version__Rep/)
+##  [Live Demo](https://addisalemseifu.github.io/Capstone_Pro_One/)
+  
+##  [Loom video](https://www.loom.com/share/2c2b043b715846daac2c12c9c150d88a)
 
 ## Built With
 - HTML,CSS,Javascript
