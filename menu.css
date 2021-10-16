@@ -658,6 +658,8 @@
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .logo {
@@ -789,7 +791,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: auto;
-    height: 11rem;
     margin-right: 3rem;
     margin-left: 3rem;
   }

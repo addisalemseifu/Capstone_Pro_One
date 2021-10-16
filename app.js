@@ -97,7 +97,7 @@ output.innerHTML = `${output.innerHTML}<div class="secondPage_title">
             <div class="dotted_background"></div>
         </div>
         <div class="feature-txt_wrapper">
-            <h1 class="feature_title">Work as an Intern</h1>
+            <h2 class="feature_title">Work as an Intern</h2>
             <p class="feature_main-one">Work as an intern in well-known technological companies from all over the world!</p>
             <div class="feature_underline"></div>
             <p class="feature_main-two">Get the best experience of your life as a developer by working with companies like Facebook and Google..</p>
@@ -135,3 +135,77 @@ output.innerHTML = `${output.innerHTML}<div class="secondPage_title">
     <p class="text-two"> We highly respect and thank all our big and small collaborators.</p>
 </div>
 </div>`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
