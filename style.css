@@ -114,6 +114,7 @@
 
 .hello_txt {
   background: #f12711;  /* fallback for old browsers */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
@@ -122,7 +123,9 @@
 }
 
 .main_txt {
-  background: url(./img/test1.jpg);
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-text-fill-color: transparent;
   background-size: cover;
   background-position: center;
@@ -355,6 +358,10 @@
   left: 0;
 }
 
+.feature_title {
+  display: none;
+}
+
 .feature_main-one {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -476,8 +483,6 @@
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .logo {
@@ -550,6 +555,10 @@
   .main_txt {
     font-weight: 800;
     font-size: 3rem;
+    color: #f12711;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
   /* Second Page */
