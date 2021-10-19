@@ -123,7 +123,7 @@
 }
 
 .main_txt {
-  color: #f12711;  /* fallback for old browsers */
+  background-color: #f12711;  /* fallback for old browsers */
   -webkit-text-fill-color: transparent;
   background-size: cover;
   background-position: center;
@@ -356,9 +356,9 @@
   left: 0;
 }
 
-.feature_title {
+/* .feature_title {
   display: none;
-}
+} */
 
 .feature_main-one {
   font-family: 'Poppins', sans-serif;
@@ -615,6 +615,11 @@
     margin-bottom: 0.4rem;
     align-self: center;
   }
+
+  /* .feature_section {
+   display: flex;
+   flex-direction: column;
+  } */
 
   #wrapper-two {
     background-image: url(./img/elizeu-dias-2EGNqazbAMk-unsplash.jpg);
