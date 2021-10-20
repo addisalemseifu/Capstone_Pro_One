@@ -1,3 +1,4 @@
+
 const menue = document.querySelector('.hum_btn');
 const MenueLinks = document.querySelector('.desctop_nav_wrapper');
 menue.addEventListener('click', () => {
@@ -182,6 +183,7 @@ for (let x = 3; x < 7; x += 1) {
   const featureMainTwo = document.createElement('p');
   featureMainTwo.innerHTML = data[x].descriptionTwo;
   featureMainTwo.className = 'feature_main-two';
+  
 
   featureTxtWrapper.appendChild(featureTitle);
   featureTxtWrapper.appendChild(featureMainOne);
@@ -191,4 +193,5 @@ for (let x = 3; x < 7; x += 1) {
   featureDiv.appendChild(dottedWrapper);
   featureDiv.appendChild(featureTxtWrapper);
   rightPart.appendChild(featureDiv);
+  console.log(rightPart);
 }
