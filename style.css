@@ -313,15 +313,17 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 90vw;
+  width: 100%;
 }
 
 .dotted_wrapper {
+  display: flex;
   margin-right: 1rem;
   position: relative;
 }
 
 .background_wrapper {
+  /* display: flex; */
   background-image: url(./img/brooke-cagle-YpefHkUc8BQ-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -334,11 +336,34 @@
   margin-left: 2rem;
 }
 
+#wrapper-two {
+  background-image: url(./img/elizeu-dias-2EGNqazbAMk-unsplash.jpg);
+}
+
+#wrapper-three {
+  background-image: url(./img/linkedin-sales-solutions-jJFrkJP_-RA-unsplash.jpg);
+}
+
+#wrapper-four {
+  background-image: url(./img/brooke-cagle-TxSVqNgnjq4-unsplash.jpg);
+}
+
+#wrapper-five {
+  background-image: url(./img/muhammad-faiz-zulkeflee-alw-CwGFmwQ-unsplash.jpg);
+}
+
+#wrapper-six {
+  background-image: url(./img/ryan-hoffman-ijhzqAm3N1Y-unsplash.jpg);
+}
+
 #wrapper-eight {
   background-image: url(./img/elizeu-dias-2EGNqazbAMk-unsplash.jpg);
 }
 
 .feature-txt_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 100%;
   width: 50%;
 }
@@ -366,7 +391,7 @@
   font-size: 0.6rem;
   margin-bottom: 0.4rem;
   color: #ec5242;
-  width: 15rem;
+  /* width: 15rem; */
 }
 
 .feature_main-two {
@@ -375,7 +400,7 @@
   font-size: 0.6rem;
   margin-bottom: 0.4rem;
   color: #272a31;
-  width: 15rem;
+  /* width: 15rem; */
 }
 
 .feature_underline {
@@ -616,10 +641,10 @@
     align-self: center;
   }
 
-  /* .feature_section {
-   display: flex;
-   flex-direction: column;
-  } */
+  .dotted_wrapper {
+    display: flex;
+    margin-right: 1rem;
+  }
 
   #wrapper-two {
     background-image: url(./img/elizeu-dias-2EGNqazbAMk-unsplash.jpg);
