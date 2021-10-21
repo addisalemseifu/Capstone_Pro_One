@@ -43,7 +43,7 @@ const data = [{
 }];
 
 const mobilePart = document.getElementById('feature_mobile');
-for (let x = 0; x < 2; x += 1) {
+for (let x = 0; x < 6; x += 1) {
   const featureDiv = document.createElement('div');
   featureDiv.className = 'feature_div';
   const backgroundWrapper = document.createElement('div');
@@ -88,16 +88,6 @@ for (let x = 0; x < 2; x += 1) {
   featureDiv.appendChild(featureTxtWrapper);
   mobilePart.appendChild(featureDiv);
 }
-
-const button = document.createElement('button');
-button.className = 'feature_more';
-
-const icon = document.createElement('i');
-icon.className = 'fas fa-chevron-down';
-button.innerHTML = 'MORE';
-
-button.appendChild(icon);
-mobilePart.appendChild(button);
 
 const leftPart = document.getElementById('feature_left');
 for (let x = 0; x < 3; x += 1) {
